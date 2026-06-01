@@ -21,3 +21,5 @@ A modern React application built with Vite that provides a responsive and user-f
 
 ## Author
 Sakshi Ghanwat
+## Live Link
+https://educase-assignmen.vercel.app/
