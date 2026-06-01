@@ -1,0 +1,32 @@
+.signup-page {
+  padding: 25px;
+  position: relative;
+  min-height: 812px;
+}
+
+.signup-page h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.radio-section {
+  margin-top: 20px;
+}
+
+.radio-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.signup-btn {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  width: calc(100% - 50px);
+  padding: 14px;
+  background: #6c25ff;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}

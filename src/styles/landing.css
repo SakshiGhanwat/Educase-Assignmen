@@ -1,0 +1,92 @@
+.landing-page {
+  height: 812px;
+  display: flex;
+  align-items: flex-end;
+  padding: 25px;
+}
+
+.bottom-content {
+  width: 100%;
+}
+
+.bottom-content h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.bottom-content p {
+  color: gray;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* .primary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #6c25ff;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #cebafb;
+  border-radius: 8px;
+  font-weight: bold;
+} */
+
+.primary-btn,
+.secondary-btn,
+.login-btn,
+.signup-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn,
+.signup-btn {
+  background: #6c25ff;
+  color: white;
+  box-shadow: 0 4px 14px rgba(108, 37, 255, 0.3);
+}
+
+.primary-btn:hover,
+.signup-btn:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 8px 24px rgba(108, 37, 255, 0.45);
+}
+
+.secondary-btn {
+  background: #cebafb;
+  color: black;
+}
+
+.secondary-btn:hover {
+  background: #b693ff;
+  transform: translateY(-2px);
+}
+
+.login-btn {
+  background: #cbcbcb;
+  color: white;
+}
+
+.login-btn:hover {
+  background: #6c25ff;
+}
+h1, h2, p {
+  user-select: text;
+}
+
+button {
+  user-select: none;
+}
